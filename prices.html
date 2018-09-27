@@ -6,43 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>med.in</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header>
-        <a href="index.html">
-            <h1>med.in</h1>
-        </a>
-        <div>
-            <br>
-            <ul>
-                <li>
-                    <p>
-                        <a href="laser.html">LASER
-                                </a>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <a href="our-specialists.html">OUR SPECIALISTS
-                                </a>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <a href="prises.html">PRISES
-                                </a>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <a href="recording.html">RECORDING ON RECEPTION
-                                </a>
-                    </p>
-                </li>
-            </ul>
+        <div class="header">
+            <nav>
+                <p class="header-logo"><a href="index.html">med.in</a></p>
+                <nav class="header-nav">
+                    <br>
+                    <a href="laser.html">LASER</a>
+                    <a href="our-specialists.html">OUR SPECIALISTS</a>
+                    <a href="prices.html">PRICES</a>
+                    <a href="recording.html">RECORDING ON RECEPTION</a>
+                </nav>
+
+            </nav>
+
         </div>
+
     </header>
+    
     <main>
         <h2 class="title">PRISES</h2>
         <br>
@@ -114,29 +99,38 @@
             </tbody>
         </table>
     </main>
+
     <footer>
-        <h2 class="title">CONTACT US</h2>
+        <div class="footer">
+            <h2 class="title">CONTACT US</h2>
         <div>
-            <form method="POST" action="https://formspree.io/a.a.i.semenova@gmail.com">
+            <div class="form">
+                <form method="POST" action="https://formspree.io/a.a.i.semenova@gmail.com">
                 <label for="user-name">Your name:</label>
-                <input id="user-name" name="User name" type="text" placeholder="Your name" required/>
+                <input id="user-name" name="User name" type="text" placeholder="Your name" required />
                 <br>
-                <label>
-                        Your email:
-                    <input type="email" name="User email" placeholder="Your email" required/>
-                    </label>
+                <label for="user-email">Your email:</label>
+                <input id="user-email" name="User email" type="text" placeholder="Your email" required />
                 <br>
                 <br> Notes:
                 <br>
-                <textarea name="message" rows="10" cols="30"></textarea>
+                <textarea name="message" rows="10" cols="30">
+                </textarea>
                 <br>
                 <input type="submit">
+            </form>
+            </div>
+            
         </div>
+
         <h2 class="title">HOW TO FIND US</h2>
         St.Antonovicha, 4<br> Phone number: 123 45 67 89<br> //here must be map
         <br>
-        <p>&copy;2018 Semenova Anastasiia</p>
+        <p>&copy; 2018 Semenova Anastasiia</p>
+        </div>
+        
     </footer>
+
 </body>
 
 </html>

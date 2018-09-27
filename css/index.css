@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+:root {
+    font-family: 'Muli', sans-serif;
+    --h1-foreground-color: white;
+}
+
+body {
+    max-width: 960px;
+    margin: auto;
+}
+
+.header{
+    background-color: #cfdffd;
+    height: 130px;
+}
+.header-logo a {
+    color: black;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.header-logo {
+    font-family: 'Muli', sans-serif;
+    font-size: 4rem;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+.eye-laser-photo {
+	position	: absolute;
+	height		: 130px;
+	width		: 200px;
+	margin: 0px;
+}
+.eye-laser-photo img {
+	position	: absolute;
+	margin: 0px;
+
+}
+
+
+@media (min-width: 500px) {
+    .header-nav {
+        align-items: center;
+        flex: 1;
+    }
+    
+}
+.header-nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0 5%;
+    background-color: #cfdffd;
+    margin: 0px;
+}
+
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    text-align: center;
+    color: #cfdffd;
+    background-color: #444444;
+    margin: 0px;
+}
+
+.banner {
+    background-image: url('../img/laser.jpg');
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+
+@media (min-width: 500px) {
+    .banner {
+        min-height: 400px;
+    }
+}
+
+.servises {
+    margin: 0px;
+    padding: 0px;
+}
+
+.servises img {
+    display: block;
+    width: 100%;
+    margin: 0px;
+}
+
+@media (min-width: 400px) {
+    .servises-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 500px) {
+    .servises-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.doctors {
+    margin: 0px;
+    padding: 2px;
+}
+
+.doctors img {
+    display: block;
+    width: 100%;
+    margin: 0px;
+}
+
+@media (min-width: 400px) {
+    .doctors-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 500px) {
+    .doctors-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.footer{
+    color: #cfdffd;
+    text-align: left;
+    background-color: #444444;
+    margin: 0px;
+}
+
+.form label{
+    margin-right: 30px;
+}
+

@@ -6,103 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>med.in</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header>
-        <a href="index.html">
-            <h1>med.in</h1>
-        </a>
-        <div>
-            <br>
-            <ul>
-                <li>
-                    <p>
-                        <a href="laser.html">LASER
-                                </a>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <a href="our-specialists.html">OUR SPECIALISTS
-                                </a>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <a href="prises.html">PRISES
-                                </a>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <a href="recording.html">RECORDING ON RECEPTION
-                                </a>
-                    </p>
-                </li>
-            </ul>
+        <div class="header">
+            <nav>
+                <p class="header-logo"><a href="index.html">med.in</a></p>
+                <nav class="header-nav">
+                    <br>
+                    <a href="laser.html">LASER</a>
+                    <a href="our-specialists.html">OUR SPECIALISTS</a>
+                    <a href="prices.html">PRICES</a>
+                    <a href="recording.html">RECORDING ON RECEPTION</a>
+                </nav>
+
+            </nav>
+
         </div>
+
     </header>
+    
     <main>
         <section>
             <h2 class="title">OUR SPECIALISTS</h2>
-            <br>
-            <div>
+            <div class="doctors-list">
+            <article class="doctors">
+                <img src="img/doctor1.jpg" alt="Doctor1">
                 <p>
-                    <img src="img/doctor1.jpg" alt="Doctor1">Dr. ILIANA TORAL graduated from Nova Southeastern University with a Doctor of Optometry degree in 2001. She is board certified and licensed in treatment and management of ocular disease. She
+                    Dr. ILIANA TORAL graduated from Nova Southeastern University with a Doctor of Optometry degree in 2001. She is board certified and licensed in treatment and management of ocular disease. She
                     also graduated with a Bachelors of Science in Biology from the University of Miami. Doctor Toral loves the Optometry profession and is dedicated fully to treating her patients using the most up to date technology. She specializes in
                     Primary Eye Care and Laser correction of vision and Laser treatment methods. She sees patients ages four and above. Bilingual English/Ukrainan.
 
                 </p>
-            </div>
-            <div>
+            </article>
+            <article class="doctors">
+                <img src="img/doctor2.jpg" alt="Doctor2">
                 <p>
-                    <img src="img/doctor2.jpg" alt="Doctor2">Dr. ANNA SMITH went on and graduated from the University of Florida with a Bachelor of Science degree in Nutritional Sciences and a minor in Business Administration. She attended Nova Southeastern
+                    Dr. ANNA SMITH went on and graduated from the University of Florida with a Bachelor of Science degree in Nutritional Sciences and a minor in Business Administration. She attended Nova Southeastern
                     University and received her Doctor of Optometry degree in 2014. She is board certified and licensed in the treatment and management of ocular disease. Dr. Smith is trained in Laser correction of vision and Laser treatment methods.
                     She is a member of the American Optometric Association, Florida Optometric Association, and the Miami Dade Optometric Association. Languages: English/Ukrainian.
 
                 </p>
-            </div>
-            <div>
+            </article>
+            <article class="doctors">
+                <img src="img/doctor3.jpg" alt="Doctor3">
                 <p>
-                    <img src="img/doctor3.jpg" alt="Doctor3">Dr. MATH JUDSON graduated from Fruitland High School and then received his BS in Visual Science at Pacific University in Forest Grove, Oregon. Dr. Judson received his Doctorate of Optometryfrom
+                    Dr. MATH JUDSON graduated from Fruitland High School and then received his BS in Visual Science at Pacific University in Forest Grove, Oregon. Dr. Judson received his Doctorate of Optometryfrom
                     Pacific University in Oregon. Since graduation, he has been practicing in the Treasure Valley. He specializes in Primary Eye Care and Laser correction of vision and Laser treatment methods and Laser Surgeries. Languages: English/Ukrainian.
 
                 </p>
-            </div>
-
-            <p>
-                <img src="img/doctor4.jpg" alt="Doctor4">Dr. EDVARD BARRET graduated Magna Cum Laude with a Bachelor of Science from Brigham Young University in Provo, Utah. He completed Medical School at the University of Washington School of Medicine
+            </article>
+            <article class="doctors">
+                <img src="img/doctor4.jpg" alt="Doctor4">
+                <p>
+                Dr. EDVARD BARRET graduated Magna Cum Laude with a Bachelor of Science from Brigham Young University in Provo, Utah. He completed Medical School at the University of Washington School of Medicine
                 in Seattle, Washington, before interning at Scripps Mercy Hospital in San Diego, California. For his ophthalmology residency, Dr. Barrett served the Houston, Texas, Baylor College of Medicine, where he was Chief Resident. He went on to
                 receive specialized training for an additional year, earning a fellowship in anterior segment and refractive surgery. Languages: English/Ukrainian.
 
             </p>
-        </section>
-
+            </article>
     </main>
+
     <footer>
-        <h2 class="title">CONTACT US</h2>
+        <div class="footer">
+            <h2 class="title">CONTACT US</h2>
         <div>
-            <form method="POST" action="https://formspree.io/a.a.i.semenova@gmail.com">
+            <div class="form">
+                <form method="POST" action="https://formspree.io/a.a.i.semenova@gmail.com">
                 <label for="user-name">Your name:</label>
-                <input id="user-name" name="User name" type="text" placeholder="Your name" required/>
+                <input id="user-name" name="User name" type="text" placeholder="Your name" required />
                 <br>
-                <label>
-                        Your email:
-                    <input type="email" name="User email" placeholder="Your email" required/>
-                    </label>
+                <label for="user-email">Your email:</label>
+                <input id="user-email" name="User email" type="text" placeholder="Your email" required />
                 <br>
                 <br> Notes:
                 <br>
-                <textarea name="message" rows="10" cols="30"></textarea>
+                <textarea name="message" rows="10" cols="30">
+                </textarea>
                 <br>
                 <input type="submit">
+            </form>
+            </div>
+            
         </div>
+
         <h2 class="title">HOW TO FIND US</h2>
         St.Antonovicha, 4<br> Phone number: 123 45 67 89<br> //here must be map
         <br>
-        <p>&copy;2018 Semenova Anastasiia</p>
+        <p>&copy; 2018 Semenova Anastasiia</p>
+        </div>
+        
     </footer>
+
 </body>
 
 </html>
