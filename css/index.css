@@ -36,19 +36,15 @@ body {
 }
 
 .eye-laser-photo {
-	position	: absolute;
-	height		: 130px;
-	width		: 200px;
+	position: absolute;
+	height: 130px;
+	width: 200px;
 	margin: 0px;
 }
-.eye-laser-photo img {
-	position	: absolute;
-	margin: 0px;
-
-}
 
 
-@media (min-width: 500px) {
+
+@media (min-width: 600px) {
     .header-nav {
         align-items: center;
         flex: 1;
@@ -141,14 +137,61 @@ body {
     }
 }
 
+table {
+    width: 960px; 
+    margin: auto;
+  border-collapse: collapse;
+  border-top: 3px solid #444444;
+  border-left: 3px solid #444444;
+  border-right: 3px solid #444444;
+  border-bottom: 3px solid #444444;
+ }
+
+table td, table th {
+  padding: 10px;
+}
+table th {
+  text-align: center;
+  font-size: 18px;
+  background: #cfdffd;
+}
+table tr:nth-child(2n) {
+  background: #c1c1c1;
+}
+table td:last-of-type {
+  text-align: center;
+}
+
+
 .footer{
     color: #cfdffd;
-    text-align: left;
+    text-align: center;
     background-color: #444444;
     margin: 0px;
 }
 
-.form label{
-    margin-right: 30px;
+.form{
+    margin: 10px auto 0;
+    text-align: center;
 }
+
+input{
+    margin-bottom: 10px;
+}
+
+.submit{
+    padding: 10px 20px;
+    margin: 10px 0 20px 0;
+    font-size: 15px;
+    color: #444444;
+    background-color: #cfdffd;
+    
+}
+
+
+
+
+
+
+
 
